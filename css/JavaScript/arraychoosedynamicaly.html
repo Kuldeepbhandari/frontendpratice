@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var task=["kuldeep","gaurav","harit",100,200];
+	var sta=["pending","complete","waiting"];
+	var question=prompt("select any option " + task.length + "?");
+	var question1=prompt("select any option " + sta.length + "?");
+	console.log("you select task "+task[(question-1)]+ " and status is "+sta[(question1-1)]+" thank you");
+
+	task.forEach(function(index, item ,array)
+	{
+		console.log(index ,item);
+	});
+	//Acess index an array item
+	var first=task[0];
+	console.log(task);
+	// Add to the end of an array
+	var newlength=task.push("bhandari");
+	console.log(task);
+	//Remove from the end of an array
+	var last=task.pop();
+	console.log(task);
+	//remove from the front of an array
+	var first=task.shift();
+	console.log(task);
+	//add to the font of an array
+	var first=task.unshift("kuldeep");
+	console.log(task);
+	//copy of an array
+	var copytask=task.slice();
+	console.log(copytask);
+</script>
+</body>
+</html>

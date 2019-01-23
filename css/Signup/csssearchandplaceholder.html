@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		input[type=search]{
+				width: 170px;
+				padding: 15px;
+				border:none;
+				border:3px solid #323232;
+				border-radius: 5px;
+				background-image:  url(search.png) ;
+				background-size: 30px 30px;
+				background-repeat: no-repeat;
+				background-position: center right;
+
+		}
+		input[type=search]:focus
+		{
+				outline: none;
+				width: 500px;
+				transition: 1.5s;
+		}
+		input[type=search]::placeholder
+{
+	color: red;
+	font-family: sans-serif;
+	font-size: 18px;
+	
+}
+
+	</style>
+</head>
+<body>
+<form>
+	<input type="search" name="search" placeholder="search">
+
+	
+</form>
+</body>
+</html>

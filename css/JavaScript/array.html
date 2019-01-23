@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	
+	 /*var arr=["hello","how","are",'you',100];
+	document.write(arr);
+	console.log(arr[1]);
+	arr[2]=200; //to insert new value in array 
+	console.log(arr);
+	var arr1=[]; //we can create an empty array in js
+	console.log(arr1);
+	arr1[0]="new var";*/
+	var task=["take out garbage","read a book","write a javascript","go to work",100];
+	var progress=["done","in progress","to-do"];
+	task[(task.length+2)]="watch tv"; //to add the value of last index position in the array.
+	console.log(task);
+	//document.write(task);
+
+	var question1=prompt("which task "+task.length+"?");
+	var question2=prompt("choose status"+progress.length+ "?");
+	console.log("today you will "+task[(question1-1)]+ " status of task = " +progress[(question2-1)]);// this method is used to select the dynamic element in array list .length method is used to calculate the length of the array list..
+	//console.log(task[(task.length-1)]); //this method is used to print the value of index element in array list.
+	task.forEach(function(item,index,array){
+		console.log(item,index);
+	});
+	
+
+</script>
+</body>
+</html>

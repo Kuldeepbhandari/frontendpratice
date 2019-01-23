@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body
+		{
+			background-color: #efefef;
+		}
+		div
+		{
+			width: 400px;
+			height: 500px;
+			background-color: white;
+			border-top: 40px solid green;
+			border-bottom: 40px solid green;
+			margin: 0 auto;
+			border-radius: 30px;
+			box-shadow: 0px 0px 1px #323232;
+
+		}
+		input[type=text]
+		{
+			width: 98%;
+			height: 45px;
+			margin: 5px auto;
+			margin-top: 10px;
+			margin-left: 2px;
+		}
+		input[type=button]
+		{
+width: 90px;
+height: 60px;
+margin: 2px;
+margin-left: 4px;
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<form name="kuldeep">
+		<input  type="text" name="result">
+		<br><br>
+		<input type="button" value="1" onclick="document.kuldeep.result.value+=1">
+		<input type="button" value="2" onclick="document.kuldeep.result.value+=2">
+		<input type="button" value="3" onclick="document.kuldeep.result.value+=3">
+		
+		<input type="button" value="4" onclick="document.kuldeep.result.value+=4">
+		<br><br>
+		<input type="button" value="5" onclick="document.kuldeep.result.value+=5">
+		<input type="button" value="6" onclick="document.kuldeep.result.value+=6">
+		
+		<input type="button" value="7" onclick="document.kuldeep.result.value+=7">
+		<input type="button" value="8" onclick="document.kuldeep.result.value+=8">
+		<br><br>
+		<input type="button" value="9" onclick="document.kuldeep.result.value+=9">
+		<input type="button" value="0" onclick="document.kuldeep.result.value+=0">
+		<input type="button" value="." onclick="document.kuldeep.result.value+='.'">
+		<input type="button" value="C" onclick="document.kuldeep.result.value=''">
+		<br><br>
+		<input type="button" value="+" onclick="document.kuldeep.result.value+='+'">
+		<input type="button" value="-" onclick="document.kuldeep.result.value+='-'">
+		<input type="button" value="*" onclick="document.kuldeep.result.value+='*'">
+		<input type="button" value="/" onclick="document.kuldeep.result.value+='/'">
+		<br><br>
+		<input type="button" value="="   style="width: 80%;margin-left: 40px;border-radius: 8px;" onclick="document.kuldeep.result.value=eval(document.kuldeep.result.value)">
+
+
+	</form>
+</div>
+</body>
+</html>

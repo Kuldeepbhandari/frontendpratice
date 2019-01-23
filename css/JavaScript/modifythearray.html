@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var animals=["cat","dog","rabbit","bird","fish","zebra"];
+	animals.push("sleep"); //add item at the end of an array
+	var remove1 = animals.pop();//removes last item from the end of an array
+	animals.shift() //remove first item
+	animals.unshift("horse");// add first item to array
+	console.log(animals);
+	animals.splice(3,1);// remove the item from the index position
+	animals.reverse();
+	console.log("to reverse the array "+ animals);
+	animals.sort();
+	console.log(animals);
+
+	//to reverse the array 
+	var animals=["cat","dog","rabbit","bird","fish","zebra"];
+	animals[20]="horse";
+	animals.fill("mouse", 6,20); //fill is used to put the value which is undefined
+	animals.sort().reverse();
+	console.log(animals);
+
+</script>
+</body>
+</html>

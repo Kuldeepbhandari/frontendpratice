@@ -1,0 +1,27 @@
+body
+{
+	background: khaki url(mot.jpg) no-repeat right top fixed ;
+	/*background-size: cover;*/
+	background-size: contain;
+	border:5px solid blue
+	background-origin:border-box;
+     
+     /*background-repeat: repeat-y;
+     background-repeat:repeat-x;*/
+     
+        /*  background-position: left top;*/
+              /* background-position: center top;*/
+                 /* background-position: center left;*/
+             
+
+}
+
+p
+{
+	background-color: red ;width:300px;
+	border:5px solid blue;
+	background-image: url (mot.jpg);
+	background-size: 80px;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	padding: 5px;

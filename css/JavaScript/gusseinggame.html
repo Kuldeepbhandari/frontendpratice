@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	var animals=["cat","dog","rabbit","bird","fish"];
+	var randomindex = Math.floor(Math.random()*animals.length);
+	var randomAnimal = animals[randomindex];
+	var message = prompt("which index value is " +randomAnimal);
+	var response = (message==randomindex) ? "correct": "wrong it was"+randomindex;
+	alert(response);
+</script>
+</body>
+</html>
